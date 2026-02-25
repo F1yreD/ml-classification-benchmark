@@ -7,3 +7,4 @@ day14/output.png
 data/
 __pycache__/
 checkpoints/
+logs/
