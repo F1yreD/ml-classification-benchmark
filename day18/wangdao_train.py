@@ -368,7 +368,7 @@ class EarlyStopping:
     def step(self, current):
         """
         应在每次验证后调用step()方法，传入当前的验证集监控指标（如val_loss或者val_acc）。
-        返回True，如果训练应提前停止；否则返回False。
+        如果训练应提前停止，则返回True；否则返回False。
         """
         if self.best_score is None:
             self.best_score = current #记录最佳指标
