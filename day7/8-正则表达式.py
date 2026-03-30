@@ -1,7 +1,7 @@
 import re
 
-original_data = 'wangdao@cskaoyan.com'
-ret=re.match('wangdao',original_data)
+original_data = 'trainmodule@cskaoyan.com'
+ret=re.match('trainmodule',original_data)
 if ret:
     print(ret.group())
 

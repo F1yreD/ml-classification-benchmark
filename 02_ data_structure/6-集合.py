@@ -1,4 +1,4 @@
-myset1 = set("wangdao")  # 通过字符串创建集合
+myset1 = set("trainmodule")  # 通过字符串创建集合
 list2 = [10, 20, 30, 40, 10, 20]
 myset2 = set(list2)  # 通过列表创建集合
 tuple3 = (10, 20, 30, 40, 10, 20)
