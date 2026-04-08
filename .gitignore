@@ -3,6 +3,7 @@
 *.log
 *.pkz
 *.svg
+*.txt
 day14/output.png
 data/
 __pycache__/
